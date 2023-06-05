@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  padding: 25px 50px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.headerTitle {
+  font-family: "Paytone One";
+  font-size: 2.5rem;
+}

@@ -44,3 +44,7 @@ textarea {
 button {
   cursor: pointer;
 }
+
+:root {
+  --main-color: #1c799b;
+}
