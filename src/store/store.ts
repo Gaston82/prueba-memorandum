@@ -1,7 +1,12 @@
-import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import {
+  configureStore,
+  type ThunkAction,
+  type Action,
+} from "@reduxjs/toolkit";
+import { seriesReducer } from "./feature/seriesSlice/seriesSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: { series: seriesReducer },
 });
 
 export type AppDispatch = typeof store.dispatch;
