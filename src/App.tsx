@@ -1,5 +1,7 @@
-const App = () => {
-  return <div>Movies and Series</div>;
-};
+import Layout from "./components/Layout/Layout";
+
+function App() {
+  return <Layout />;
+}
 
 export default App;
