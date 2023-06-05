@@ -7,8 +7,9 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: Poppins, sans-serif;
+  font-family: var(--main-font);
   font-size: 1.2rem;
+  color: var(--text-color);
 }
 
 h1,
@@ -47,4 +48,8 @@ button {
 
 :root {
   --main-color: #1c799b;
+  --secondary-color: #aed9e0;
+  --text-color: #404040;
+  --main-font: Poppins, sans-serif;
+  --title-font: "Paytone One", sans-serif;
 }
