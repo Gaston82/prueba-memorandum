@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
 
 const Header = (): JSX.Element => (
-  <header>
+  <header className={styles.header}>
     <Link to={"/"}>
-      <h1>Movies & Series</h1>
+      <span className={styles.headerTitle}>Movies & Series</span>
     </Link>
   </header>
 );
