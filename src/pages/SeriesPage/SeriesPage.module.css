@@ -1,0 +1,19 @@
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 40px;
+}
+
+.titleContainer {
+  background-color: var(--text-color);
+  width: 100%;
+  color: #fff;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-family: var(--main-font);
+}
